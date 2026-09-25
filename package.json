@@ -1,0 +1,26 @@
+{
+  "name": "interlisp-search",
+  "version": "1.0.0",
+  "description": "AI-assisted search backend for Interlisp.org (Google Cloud Vertex AI Search + Cloud Functions)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "Interlisp.org",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/discoveryengine": "^2.6.0",
+    "@google-cloud/firestore": "^8.5.0",
+    "@google-cloud/storage": "^7.0.0",
+    "google-auth-library": "^10.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0"
+  }
+}

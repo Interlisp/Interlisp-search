@@ -1,0 +1,2999 @@
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigquerydatapolicy.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigquerydatapolicy.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: iam.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/iam.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: aiplatform.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/aiplatform.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: telemetry.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/telemetry.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudresourcemanager.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudresourcemanager.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Engine
+displayName: interlisp-site-search-v2_1777510147931
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/engines/interlisp-site-search-v2_1777510147931
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: discoveryengine.googleapis.com/Collection
+location: us
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/us/collections/default_collection
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: cloudbilling.googleapis.com/ProjectBillingInfo
+displayName: projects/interlispsearch/billingInfo
+location: global
+name: //cloudbilling.googleapis.com/projects/interlispsearch/billingInfo
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ACTIVE
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:4761aab67c48969af96d1a1db0271f29f53d8e9e6b58d33b27b3408835474331
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-25T15:28:09Z'
+displayName: search-00026-zaq
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '26'
+  serving.knative.dev/route: search
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00026-zaq
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search%2Fcache@sha256:2f728737f6bc2e24c16dbfa4d2686c465372cd4a45e0f60c192c3d311a865442
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search%2Fcache@sha256:2f728737f6bc2e24c16dbfa4d2686c465372cd4a45e0f60c192c3d311a865442
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4761aab67c48969af96d1a1db0271f29f53d8e9e6b58d33b27b3408835474331
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4761aab67c48969af96d1a1db0271f29f53d8e9e6b58d33b27b3408835474331
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:c1e1e1227d1b0ab9b62dec914996d0d87afb61ec5189da11dd4f84489f29f8f3
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-19T03:26:50Z'
+displayName: search-00025-nuq
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '25'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00025-nuq
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:c1e1e1227d1b0ab9b62dec914996d0d87afb61ec5189da11dd4f84489f29f8f3
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:c1e1e1227d1b0ab9b62dec914996d0d87afb61ec5189da11dd4f84489f29f8f3
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:ccf542a2ecfc3928b39c40a50da228121ab5cfcab6c0db484b227e6a785d3650
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-14T11:34:41Z'
+displayName: search-00024-zeh
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '24'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00024-zeh
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:ccf542a2ecfc3928b39c40a50da228121ab5cfcab6c0db484b227e6a785d3650
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:ccf542a2ecfc3928b39c40a50da228121ab5cfcab6c0db484b227e6a785d3650
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:b1b70b9faa84184cfb6a50acc877f30dd6301896bdac39ca1e447f961c503a1b
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-14T04:00:28Z'
+displayName: search-00023-fiz
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '23'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00023-fiz
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:b1b70b9faa84184cfb6a50acc877f30dd6301896bdac39ca1e447f961c503a1b
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:b1b70b9faa84184cfb6a50acc877f30dd6301896bdac39ca1e447f961c503a1b
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2026-05-13T03:33:29Z'
+displayName: 191169864763_454169230_us_central1_import_document
+labels:
+  goog-drz-discoveryengine-pcr-location: us-central1
+location: us-central1
+name: //storage.googleapis.com/191169864763_454169230_us_central1_import_document
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-13T03:33:29Z'
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:4569489ddd1ce50b718132777c7d4efe060f2d2fb1f935245411496d944422f7
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-11T11:35:57Z'
+displayName: search-00022-dap
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '22'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00022-dap
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4569489ddd1ce50b718132777c7d4efe060f2d2fb1f935245411496d944422f7
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4569489ddd1ce50b718132777c7d4efe060f2d2fb1f935245411496d944422f7
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2026-05-06T13:07:02Z'
+displayName: interlisp-document-bucket
+location: us-central1
+name: //storage.googleapis.com/interlisp-document-bucket
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-06T13:07:02Z'
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:e3d6cd158aaa77fb788955578298d8c1098bd30f59b47a58e63feb717dfb54e3
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-03T12:15:55Z'
+displayName: search-00021-pem
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '21'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00021-pem
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:e3d6cd158aaa77fb788955578298d8c1098bd30f59b47a58e63feb717dfb54e3
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:e3d6cd158aaa77fb788955578298d8c1098bd30f59b47a58e63feb717dfb54e3
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: firestore.googleapis.com/Database
+createTime: '2026-05-03T12:03:08Z'
+displayName: (default)
+location: us-central1
+name: //firestore.googleapis.com/projects/191169864763/databases/(default)
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-03T12:03:08Z'
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:8aca3ad624ef27a57d16e5c4efdc44861fbbffc892a185a95765bf5ed9cfd20c
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-03T11:54:06Z'
+displayName: search-00020-sop
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '20'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00020-sop
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:8aca3ad624ef27a57d16e5c4efdc44861fbbffc892a185a95765bf5ed9cfd20c
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:8aca3ad624ef27a57d16e5c4efdc44861fbbffc892a185a95765bf5ed9cfd20c
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:3a9efa73c7607dd64874a5ec825a6a4940abf00059edaed1430497016a962ff4
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-03T11:36:42Z'
+displayName: search-00019-vip
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '19'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00019-vip
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:3a9efa73c7607dd64874a5ec825a6a4940abf00059edaed1430497016a962ff4
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:3a9efa73c7607dd64874a5ec825a6a4940abf00059edaed1430497016a962ff4
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:d64601792b266778c033219fb6d8f6cceb3ae2bf0faf199827dfa8c799d38a9f
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:52:20Z'
+displayName: search-00018-vuz
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '18'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00018-vuz
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:d64601792b266778c033219fb6d8f6cceb3ae2bf0faf199827dfa8c799d38a9f
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:d64601792b266778c033219fb6d8f6cceb3ae2bf0faf199827dfa8c799d38a9f
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:c35fcb1b984dcd80cd02bc8fafff61fdaf9c85fdf80dbf70146ba233d7237c97
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:46:57Z'
+displayName: search-00017-fem
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '17'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00017-fem
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:c35fcb1b984dcd80cd02bc8fafff61fdaf9c85fdf80dbf70146ba233d7237c97
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:c35fcb1b984dcd80cd02bc8fafff61fdaf9c85fdf80dbf70146ba233d7237c97
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:32a7529c4159e42bffe108c75247d3b2aba7542af992e82a1aeec9d0160f9d9e
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:41:00Z'
+displayName: search-00016-put
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '16'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00016-put
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:32a7529c4159e42bffe108c75247d3b2aba7542af992e82a1aeec9d0160f9d9e
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:32a7529c4159e42bffe108c75247d3b2aba7542af992e82a1aeec9d0160f9d9e
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:8871e77ddaa7d9cb786fbdd691b3d5ecdefd38bd16c98dcd058a9f5118249aeb
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:39:23Z'
+displayName: search-00015-mit
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '15'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00015-mit
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:8871e77ddaa7d9cb786fbdd691b3d5ecdefd38bd16c98dcd058a9f5118249aeb
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:8871e77ddaa7d9cb786fbdd691b3d5ecdefd38bd16c98dcd058a9f5118249aeb
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:caac322254c405969bacb95efe6dd9167e874545e59e60ffd6b8d147945e822e
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:29:23Z'
+displayName: search-00014-pur
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '14'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00014-pur
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:caac322254c405969bacb95efe6dd9167e874545e59e60ffd6b8d147945e822e
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:caac322254c405969bacb95efe6dd9167e874545e59e60ffd6b8d147945e822e
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:f0155777009e1c4d3c61784335c03f3492101e2fd7ac574d82f040a9e30e3016
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:23:58Z'
+displayName: search-00013-foq
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '13'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00013-foq
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:f0155777009e1c4d3c61784335c03f3492101e2fd7ac574d82f040a9e30e3016
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:f0155777009e1c4d3c61784335c03f3492101e2fd7ac574d82f040a9e30e3016
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:21cde742adcd055b3fff2e9a94a342c912ebb7aad2758c41c04d14d53bab613b
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:15:59Z'
+displayName: search-00012-kon
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '12'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00012-kon
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:21cde742adcd055b3fff2e9a94a342c912ebb7aad2758c41c04d14d53bab613b
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:21cde742adcd055b3fff2e9a94a342c912ebb7aad2758c41c04d14d53bab613b
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:0fcbc596cf3f4aaa23b532959ea5c82528a03118caa32da990f3a3dd443f8878
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:08:53Z'
+displayName: search-00011-len
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '11'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00011-len
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:0fcbc596cf3f4aaa23b532959ea5c82528a03118caa32da990f3a3dd443f8878
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:0fcbc596cf3f4aaa23b532959ea5c82528a03118caa32da990f3a3dd443f8878
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:381e56ebb5c1ac85211e150b0ebfd3309fd36947a569668a9330909703f6df0c
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T04:06:29Z'
+displayName: search-00010-han
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '10'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00010-han
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:381e56ebb5c1ac85211e150b0ebfd3309fd36947a569668a9330909703f6df0c
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:381e56ebb5c1ac85211e150b0ebfd3309fd36947a569668a9330909703f6df0c
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:dfdb9f4def429634463a680968528a76cd5dac203ff2884e30360480e3b9fe5b
+assetType: run.googleapis.com/Revision
+createTime: '2026-05-02T03:54:09Z'
+displayName: search-00009-zuz
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '9'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00009-zuz
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:dfdb9f4def429634463a680968528a76cd5dac203ff2884e30360480e3b9fe5b
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:dfdb9f4def429634463a680968528a76cd5dac203ff2884e30360480e3b9fe5b
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:49671549c8b115d630cce9a29a8b8852917da2776e0b9c4b3876922178c04d9b
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-30T03:44:54Z'
+displayName: search-00008-yos
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '8'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00008-yos
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:49671549c8b115d630cce9a29a8b8852917da2776e0b9c4b3876922178c04d9b
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:49671549c8b115d630cce9a29a8b8852917da2776e0b9c4b3876922178c04d9b
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:e23bb5ec8b2e7b0be83bb6b2f7ed424cc72be8726880e012064c1ca338d47592
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-30T03:36:44Z'
+displayName: search-00007-zol
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs20
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '7'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00007-zol
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:e23bb5ec8b2e7b0be83bb6b2f7ed424cc72be8726880e012064c1ca338d47592
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:e23bb5ec8b2e7b0be83bb6b2f7ed424cc72be8726880e012064c1ca338d47592
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:caeda6722042796bd1286aeefd97d56417bf339be02b08e74b29015d7b6b7d4c
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-30T00:53:43Z'
+displayName: search-00006-xew
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs20
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '6'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00006-xew
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:caeda6722042796bd1286aeefd97d56417bf339be02b08e74b29015d7b6b7d4c
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:caeda6722042796bd1286aeefd97d56417bf339be02b08e74b29015d7b6b7d4c
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: orgpolicy.googleapis.com/Policy
+displayName: iam.disableServiceAccountKeyCreation
+location: global
+name: //orgpolicy.googleapis.com/projects/191169864763/policies/iam.disableServiceAccountKeyCreation
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-02T03:50:04Z'
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:d590b7918b0f3a302410a6f09117ea9253b87a21945d07e94ecde2afaf81edcd
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-23T11:07:55Z'
+displayName: search-00005-qik
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '5'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00005-qik
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:d590b7918b0f3a302410a6f09117ea9253b87a21945d07e94ecde2afaf81edcd
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:d590b7918b0f3a302410a6f09117ea9253b87a21945d07e94ecde2afaf81edcd
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:eff3c508e2baa2112401b5ce611e10965fad213fa29b4dfdbf67a37464b04166
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-23T10:54:42Z'
+displayName: search-00004-yay
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '4'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00004-yay
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:eff3c508e2baa2112401b5ce611e10965fad213fa29b4dfdbf67a37464b04166
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:eff3c508e2baa2112401b5ce611e10965fad213fa29b4dfdbf67a37464b04166
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:90681da845896bdc031e9afcf7cb7fbad2ca62b2643c33c7b68c28cb69c359af
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-23T00:51:19Z'
+displayName: search-00003-biy
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '3'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00003-biy
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:90681da845896bdc031e9afcf7cb7fbad2ca62b2643c33c7b68c28cb69c359af
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:90681da845896bdc031e9afcf7cb7fbad2ca62b2643c33c7b68c28cb69c359af
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:96aea2abfc8727c2a2d3a11713290ec9b3701b0336eebbfc910cd2807477776c
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-22T11:45:55Z'
+displayName: search-00002-leq
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '2'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00002-leq
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:96aea2abfc8727c2a2d3a11713290ec9b3701b0336eebbfc910cd2807477776c
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:96aea2abfc8727c2a2d3a11713290ec9b3701b0336eebbfc910cd2807477776c
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+additionalAttributes:
+  statusUrl: https://search-wirp2yyzja-uc.a.run.app
+assetType: run.googleapis.com/Service
+createTime: '2026-04-22T11:32:36Z'
+displayName: search
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-drz-cloudfunctions-id: search
+  goog-drz-cloudfunctions-location: us-central1
+  goog-managed-by: cloudfunctions
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  statusImageDigest: us-central1-docker.pkg.dev/interlispsearch/gcf-artifacts/interlispsearch__us--central1__search@sha256:4872e066e045c5bedf42594b25f28e03297d690903eed2d8a95b7e6477ebcb56
+assetType: run.googleapis.com/Revision
+createTime: '2026-04-22T11:32:36Z'
+displayName: search-00001-cab
+labels:
+  cloud.googleapis.com/location: us-central1
+  goog-cloudfunctions-runtime: nodejs24
+  goog-managed-by: cloudfunctions
+  run.googleapis.com/startupProbeType: Default
+  serving.knative.dev/configuration: search
+  serving.knative.dev/configurationGeneration: '1'
+  serving.knative.dev/service: search
+  serving.knative.dev/serviceUid: 526c34e6-e516-4380-9bdb-1161d5a83c2a
+location: us-central1
+name: //run.googleapis.com/projects/interlispsearch/locations/us-central1/revisions/search-00001-cab
+organization: organizations/513691321000
+parentAssetType: run.googleapis.com/Service
+parentFullResourceName: //run.googleapis.com/projects/interlispsearch/locations/us-central1/services/search
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/DockerImage
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4872e066e045c5bedf42594b25f28e03297d690903eed2d8a95b7e6477ebcb56
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts/dockerImages/interlispsearch__us--central1__search@sha256:4872e066e045c5bedf42594b25f28e03297d690903eed2d8a95b7e6477ebcb56
+organization: organizations/513691321000
+parentAssetType: artifactregistry.googleapis.com/Repository
+parentFullResourceName: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+project: projects/191169864763
+---
+assetType: artifactregistry.googleapis.com/Repository
+createTime: '2026-04-22T03:45:29Z'
+description: This repository is created and used by Cloud Functions for storing function
+  docker images.
+displayName: projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+labels:
+  goog-managed-by: cloudfunctions
+location: us-central1
+name: //artifactregistry.googleapis.com/projects/interlispsearch/locations/us-central1/repositories/gcf-artifacts
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-25T15:28:04Z'
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2026-04-22T03:45:08Z'
+displayName: gcf-v2-sources-191169864763-us-central1
+labels:
+  goog-managed-by: cloudfunctions
+location: us-central1
+name: //storage.googleapis.com/gcf-v2-sources-191169864763-us-central1
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-04-22T03:45:08Z'
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2026-04-22T03:41:29Z'
+displayName: gcf-v2-uploads-191169864763.us-central1.cloudfunctions.appspot.com
+labels:
+  goog-managed-by: cloudfunctions
+location: us-central1
+name: //storage.googleapis.com/gcf-v2-uploads-191169864763.us-central1.cloudfunctions.appspot.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-04-22T03:41:29Z'
+---
+additionalAttributes:
+  email: interlispsearch@appspot.gserviceaccount.com
+  oauth2ClientId: '113394924284544285422'
+  uniqueId: '113394924284544285422'
+assetType: iam.googleapis.com/ServiceAccount
+displayName: App Engine default service account
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/interlispsearch@appspot.gserviceaccount.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  email: vertex-search-sa@interlispsearch.iam.gserviceaccount.com
+  oauth2ClientId: '114761346295873398292'
+  uniqueId: '114761346295873398292'
+assetType: iam.googleapis.com/ServiceAccount
+displayName: Vertex Search Service Account
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/vertex-search-sa@interlispsearch.iam.gserviceaccount.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: iam.googleapis.com/ServiceAccountKey
+createTime: '2026-04-17T11:28:56Z'
+displayName: projects/interlispsearch/serviceAccounts/interlisp-gmail@interlispsearch.iam.gserviceaccount.com/keys/26df7c83507f7abb3d2f776181e2810d1cc26445
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/117119298116344165528/keys/26df7c83507f7abb3d2f776181e2810d1cc26445
+organization: organizations/513691321000
+parentAssetType: iam.googleapis.com/ServiceAccount
+parentFullResourceName: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/interlisp-gmail@interlispsearch.iam.gserviceaccount.com
+project: projects/191169864763
+---
+assetType: iam.googleapis.com/ServiceAccountKey
+createTime: '2026-04-17T11:28:56Z'
+displayName: projects/interlispsearch/serviceAccounts/191169864763-compute@developer.gserviceaccount.com/keys/36f523cc41c0d20f5976f0a35cf78910bebcf5b1
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/113609940976673198633/keys/36f523cc41c0d20f5976f0a35cf78910bebcf5b1
+organization: organizations/513691321000
+parentAssetType: iam.googleapis.com/ServiceAccount
+parentFullResourceName: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/191169864763-compute@developer.gserviceaccount.com
+project: projects/191169864763
+---
+assetType: iam.googleapis.com/ServiceAccountKey
+createTime: '2026-04-17T11:28:56Z'
+displayName: projects/interlispsearch/serviceAccounts/vertex-search-sa@interlispsearch.iam.gserviceaccount.com/keys/667062b449b6f31859be984451b7605d4803c268
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/114761346295873398292/keys/667062b449b6f31859be984451b7605d4803c268
+organization: organizations/513691321000
+parentAssetType: iam.googleapis.com/ServiceAccount
+parentFullResourceName: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/vertex-search-sa@interlispsearch.iam.gserviceaccount.com
+project: projects/191169864763
+---
+assetType: apikeys.googleapis.com/Key
+createTime: '2026-01-09T16:41:01Z'
+displayName: Vertex_API_Key_20260109
+name: //apikeys.googleapis.com/projects/191169864763/locations/global/keys/e7f6b06e-6ceb-41bf-883c-0ef0165c096a
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-01-09T16:41:01Z'
+---
+additionalAttributes:
+  email: interlisp-gmail@interlispsearch.iam.gserviceaccount.com
+  oauth2ClientId: '117119298116344165528'
+  uniqueId: '117119298116344165528'
+assetType: iam.googleapis.com/ServiceAccount
+description: Account for retrieving group emails
+displayName: Interlisp_gmail
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/interlisp-gmail@interlispsearch.iam.gserviceaccount.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  id: '5350924784492434297'
+assetType: compute.googleapis.com/Route
+createTime: '2025-12-01T01:21:26Z'
+description: Default local route to the subnetwork 10.232.0.0/20.
+displayName: default-route-r-b433a31600a6115c
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-b433a31600a6115c
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.232.0.1
+  id: '6668225863022105471'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-12-01T01:21:20Z'
+displayName: default
+location: asia-southeast3
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-southeast3/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2025-11-30T04:32:33Z'
+displayName: interlisp_2025
+location: us
+name: //storage.googleapis.com/interlisp_2025
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2025-11-30T04:32:33Z'
+---
+additionalAttributes:
+  id: '4638879679955499010'
+assetType: compute.googleapis.com/Firewall
+createTime: '2025-11-30T04:24:13Z'
+description: Allow ICMP from anywhere
+displayName: default-allow-icmp
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/firewalls/default-allow-icmp
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  id: '4063134490678425602'
+assetType: compute.googleapis.com/Firewall
+createTime: '2025-11-30T04:24:13Z'
+description: Allow RDP from anywhere
+displayName: default-allow-rdp
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/firewalls/default-allow-rdp
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  id: '4765721209646512131'
+assetType: compute.googleapis.com/Firewall
+createTime: '2025-11-30T04:24:12Z'
+description: Allow SSH from anywhere
+displayName: default-allow-ssh
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/firewalls/default-allow-ssh
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  id: '2451824415198312451'
+assetType: compute.googleapis.com/Firewall
+createTime: '2025-11-30T04:24:12Z'
+description: Allow internal traffic on the default network
+displayName: default-allow-internal
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/firewalls/default-allow-internal
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+additionalAttributes:
+  id: '5383118639572875321'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:50Z'
+description: Default local route to the subnetwork 10.160.0.0/20.
+displayName: default-route-r-c6bffc539533a27a
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-c6bffc539533a27a
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '1756962675948419130'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:49Z'
+description: Default local route to the subnetwork 10.192.0.0/20.
+displayName: default-route-r-05e58e13c0426bae
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-05e58e13c0426bae
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2586909498958837818'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:49Z'
+description: Default local route to the subnetwork 10.152.0.0/20.
+displayName: default-route-r-71eb223ab2ef39e8
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-71eb223ab2ef39e8
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5695157054533433402'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:49Z'
+description: Default local route to the subnetwork 10.190.0.0/20.
+displayName: default-route-r-a0fe9dfb8a9d4255
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-a0fe9dfb8a9d4255
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '4740854641787828283'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:48Z'
+description: Default local route to the subnetwork 10.158.0.0/20.
+displayName: default-route-r-3fee42901def2c9f
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-3fee42901def2c9f
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7640509757648173115'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:48Z'
+description: Default local route to the subnetwork 10.218.0.0/20.
+displayName: default-route-r-566f4691682ea716
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-566f4691682ea716
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2518908561661524028'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:47Z'
+description: Default local route to the subnetwork 10.208.0.0/20.
+displayName: default-route-r-f8cd7e4e7ef8947f
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-f8cd7e4e7ef8947f
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '473468762474313788'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:47Z'
+description: Default local route to the subnetwork 10.194.0.0/20.
+displayName: default-route-r-91ec9bac739a263d
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-91ec9bac739a263d
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '4249739446616225852'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:47Z'
+description: Default local route to the subnetwork 10.184.0.0/20.
+displayName: default-route-r-3a65312c9aecb1f2
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-3a65312c9aecb1f2
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '3180297365915859004'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:47Z'
+description: Default local route to the subnetwork 10.148.0.0/20.
+displayName: default-route-r-b02d5eeac98132da
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-b02d5eeac98132da
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5683579136963409981'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.170.0.0/20.
+displayName: default-route-r-7e8b2b49f599b2b1
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-7e8b2b49f599b2b1
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2455401251077519421'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.140.0.0/20.
+displayName: default-route-r-c9ccb3661c4b78b9
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-c9ccb3661c4b78b9
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '8378479980568803389'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.146.0.0/20.
+displayName: default-route-r-a149d90b7e2827fd
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-a149d90b7e2827fd
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5307681769561421885'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.212.0.0/20.
+displayName: default-route-r-32bba9f6599b4fd1
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-32bba9f6599b4fd1
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2685167398524713021'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.178.0.0/20.
+displayName: default-route-r-7d5865eadcf07a5f
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-7d5865eadcf07a5f
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '6940439803616196669'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:46Z'
+description: Default local route to the subnetwork 10.166.0.0/20.
+displayName: default-route-r-ee632527b4551497
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-ee632527b4551497
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '3881447718971144254'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.200.0.0/20.
+displayName: default-route-r-1a506312888068a5
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-1a506312888068a5
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '760201333206054974'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.198.0.0/20.
+displayName: default-route-r-569cfd1a730358d0
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-569cfd1a730358d0
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7056879760034920510'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.226.0.0/20.
+displayName: default-route-r-bf4fc4d258c3fe6a
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-bf4fc4d258c3fe6a
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '6987296818778765374'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.154.0.0/20.
+displayName: default-route-r-4cebc386d5c5fb6e
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-4cebc386d5c5fb6e
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '3256894452622850110'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.128.0.0/20.
+displayName: default-route-r-08c469f0bd5be587
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-08c469f0bd5be587
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '849097883398862910'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.172.0.0/20.
+displayName: default-route-r-c10ff78b7871cff8
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-c10ff78b7871cff8
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '653923024596531262'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.174.0.0/20.
+displayName: default-route-r-41fc753d27c06394
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-41fc753d27c06394
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7320794741481044030'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.164.0.0/20.
+displayName: default-route-r-71b4025922dbe9d1
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-71b4025922dbe9d1
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '1626375294825166910'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.210.0.0/20.
+displayName: default-route-r-1ac8ada39b9782f2
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-1ac8ada39b9782f2
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7635908602133641278'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.214.0.0/20.
+displayName: default-route-r-112f626643d7442d
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-112f626643d7442d
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7687669988911904830'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.186.0.0/20.
+displayName: default-route-r-c485299dfb4768fb
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-c485299dfb4768fb
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2313026499714119742'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:45Z'
+description: Default local route to the subnetwork 10.156.0.0/20.
+displayName: default-route-r-f71b4eecdfbd09e7
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-f71b4eecdfbd09e7
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5539590293940500543'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:44Z'
+description: Default local route to the subnetwork 10.168.0.0/20.
+displayName: default-route-r-e0d8bd6e0581b9e1
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-e0d8bd6e0581b9e1
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '4748305705671751743'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:44Z'
+description: Default local route to the subnetwork 10.204.0.0/20.
+displayName: default-route-r-58ca66d09b136734
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-58ca66d09b136734
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '1444430773540517951'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:44Z'
+description: Default local route to the subnetwork 10.132.0.0/20.
+displayName: default-route-r-86a82e28c01aee45
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-86a82e28c01aee45
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5520492640254457888'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.188.0.0/20.
+displayName: default-route-r-f3a179848d965ede
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-f3a179848d965ede
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.160.0.1
+  id: '6938845975612389408'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:43Z'
+displayName: default
+location: asia-south1
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-south1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7719624176226957344'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.150.0.0/20.
+displayName: default-route-r-39c09e00ea82833c
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-39c09e00ea82833c
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5903825553823528993'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.206.0.0/20.
+displayName: default-route-r-3f9d0e07aa107c02
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-3f9d0e07aa107c02
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '1172782604693698592'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.138.0.0/20.
+displayName: default-route-r-da1477da6a6afb7d
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-da1477da6a6afb7d
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '8448732721974769696'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.162.0.0/20.
+displayName: default-route-r-bad85ebc87db6775
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-bad85ebc87db6775
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '2560750416526997536'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.180.0.0/20.
+displayName: default-route-r-97c6f3d3d21b7b19
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-97c6f3d3d21b7b19
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '1202944673954822176'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.202.0.0/20.
+displayName: default-route-r-9d476a22d502211e
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-9d476a22d502211e
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '6559092659586496544'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.182.0.0/20.
+displayName: default-route-r-22b4425b9fbfc041
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-22b4425b9fbfc041
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '3572588146745309216'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:43Z'
+description: Default local route to the subnetwork 10.224.0.0/20.
+displayName: default-route-r-5d5baf471294097f
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-5d5baf471294097f
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.158.0.1
+  id: '5354510970515781665'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: southamerica-east1
+name: //compute.googleapis.com/projects/interlispsearch/regions/southamerica-east1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.166.0.1
+  id: '798740310976264225'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-north1
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-north1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.194.0.1
+  id: '9113664599370397729'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: southamerica-west1
+name: //compute.googleapis.com/projects/interlispsearch/regions/southamerica-west1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.186.0.1
+  id: '7729658190493022241'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-central2
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-central2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.214.0.1
+  id: '6488896036223219745'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-west10
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west10/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.146.0.1
+  id: '7243668390249134113'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: asia-northeast1
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-northeast1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.170.0.1
+  id: '16421801945364513'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: asia-east2
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-east2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.152.0.1
+  id: '6703311133035886625'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: australia-southeast1
+name: //compute.googleapis.com/projects/interlispsearch/regions/australia-southeast1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '5758541932779698209'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:42Z'
+description: Default local route to the subnetwork 10.142.0.0/20.
+displayName: default-route-r-1efbb4e5da3c6f83
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-r-1efbb4e5da3c6f83
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.172.0.1
+  id: '8458228327730542625'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-west6
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west6/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.190.0.1
+  id: '4605957763494213665'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: asia-south2
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-south2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.200.0.1
+  id: '3494051998268291105'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-west9
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west9/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.192.0.1
+  id: '6543396697308297249'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: australia-southeast2
+name: //compute.googleapis.com/projects/interlispsearch/regions/australia-southeast2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.198.0.1
+  id: '6328252650056218657'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-west8
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west8/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.156.0.1
+  id: '1034589046942627873'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:42Z'
+displayName: default
+location: europe-west3
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west3/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.178.0.1
+  id: '6671674764710803490'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: asia-northeast3
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-northeast3/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.224.0.1
+  id: '4693859496182052898'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: northamerica-south1
+name: //compute.googleapis.com/projects/interlispsearch/regions/northamerica-south1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.202.0.1
+  id: '459533749672376354'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-east5
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-east5/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.212.0.1
+  id: '8682898483596130338'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: me-central1
+name: //compute.googleapis.com/projects/interlispsearch/regions/me-central1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.162.0.1
+  id: '3791001394254084130'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: northamerica-northeast1
+name: //compute.googleapis.com/projects/interlispsearch/regions/northamerica-northeast1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.142.0.1
+  id: '1437984551615232034'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-east1
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-east1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.154.0.1
+  id: '2458521738091591714'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-west2
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.188.0.1
+  id: '5532111892589738018'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: northamerica-northeast2
+name: //compute.googleapis.com/projects/interlispsearch/regions/northamerica-northeast2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.168.0.1
+  id: '7721854896341153826'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-west2
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-west2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.128.0.1
+  id: '1025889423180855330'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-central1
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-central1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.180.0.1
+  id: '2904252284429301794'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-west3
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-west3/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.206.0.1
+  id: '5947659105283242018'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-south1
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-south1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.150.0.1
+  id: '4725331513288587298'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-east4
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-east4/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.132.0.1
+  id: '2128698091191564322'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-west1
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.184.0.1
+  id: '740517158786070562'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: asia-southeast2
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-southeast2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.182.0.1
+  id: '930446565439862818'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-west4
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-west4/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.208.0.1
+  id: '8542001398551050274'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: me-west1
+name: //compute.googleapis.com/projects/interlispsearch/regions/me-west1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.148.0.1
+  id: '6172861356057196578'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: asia-southeast1
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-southeast1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.174.0.1
+  id: '1757201007978641442'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: asia-northeast2
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-northeast2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.164.0.1
+  id: '3735939960764004386'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-west4
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west4/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.210.0.1
+  id: '8785436713209460770'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-west12
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-west12/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.138.0.1
+  id: '5863792515844831266'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: us-west1
+name: //compute.googleapis.com/projects/interlispsearch/regions/us-west1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.218.0.1
+  id: '3324271408481466402'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: africa-south1
+name: //compute.googleapis.com/projects/interlispsearch/regions/africa-south1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.140.0.1
+  id: '8899938604290570274'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: asia-east1
+name: //compute.googleapis.com/projects/interlispsearch/regions/asia-east1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.226.0.1
+  id: '7408095951841556514'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-north2
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-north2/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  gatewayAddress: 10.204.0.1
+  id: '5766349582028404770'
+assetType: compute.googleapis.com/Subnetwork
+createTime: '2025-11-30T04:23:41Z'
+displayName: default
+location: europe-southwest1
+name: //compute.googleapis.com/projects/interlispsearch/regions/europe-southwest1/subnetworks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7275686091540559911'
+assetType: compute.googleapis.com/Route
+createTime: '2025-11-30T04:23:36Z'
+description: Default route to the Internet.
+displayName: default-route-5781df137787ef82
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/routes/default-route-5781df137787ef82
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '7944607946309531694'
+assetType: compute.googleapis.com/Network
+createTime: '2025-11-30T04:23:29Z'
+description: Default network for the project
+displayName: default
+location: global
+name: //compute.googleapis.com/projects/interlispsearch/global/networks/default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  id: '855445677558626392'
+  xpnProjectStatus: UNSPECIFIED_XPN_PROJECT_STATUS
+assetType: compute.googleapis.com/Project
+createTime: '2025-11-30T04:23:19Z'
+displayName: interlispsearch
+location: global
+name: //compute.googleapis.com/projects/interlispsearch
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+additionalAttributes:
+  email: 191169864763-compute@developer.gserviceaccount.com
+  oauth2ClientId: '113609940976673198633'
+  uniqueId: '113609940976673198633'
+assetType: iam.googleapis.com/ServiceAccount
+displayName: Compute Engine default service account
+location: global
+name: //iam.googleapis.com/projects/interlispsearch/serviceAccounts/191169864763-compute@developer.gserviceaccount.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: dataflow.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/dataflow.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: firestore.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/firestore.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: discoveryengine.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/discoveryengine.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: storage.googleapis.com/Bucket
+createTime: '2025-03-11T23:52:49Z'
+displayName: 191169864763_us_import_content_with_faq_csv
+labels:
+  goog-drz-discoveryengine-pcr-location: us
+location: us
+name: //storage.googleapis.com/191169864763_us_import_content_with_faq_csv
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2025-03-11T23:52:49Z'
+---
+additionalAttributes:
+  projectId: interlispsearch
+assetType: cloudresourcemanager.googleapis.com/Project
+createTime: '2025-03-09T12:06:51Z'
+displayName: InterlispSearch
+location: global
+name: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Organization
+parentFullResourceName: //cloudresourcemanager.googleapis.com/organizations/513691321000
+project: projects/191169864763
+state: ACTIVE
+---
+assetType: logging.googleapis.com/LogBucket
+description: Default bucket
+displayName: _Default
+location: global
+name: //logging.googleapis.com/projects/191169864763/locations/global/buckets/_Default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ACTIVE
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: geminicloudassist.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/geminicloudassist.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: dataplex.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/dataplex.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: storage-api.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/storage-api.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: interlisp-web-sites_1741606671710
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/interlisp-web-sites_1741606671710
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: gmail.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/gmail.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudaicompanion.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudaicompanion.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Collection
+location: eu
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/eu/collections/default_collection
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: storage-component.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/storage-component.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: interlisp-github-v2
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/interlisp-github-v2
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: artifactregistry.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/artifactregistry.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Engine
+displayName: interlisp-org-search_1768860477660
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/engines/interlisp-org-search_1768860477660
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: logging.googleapis.com/LogBucket
+description: Audit bucket
+displayName: _Required
+location: global
+name: //logging.googleapis.com/projects/191169864763/locations/global/buckets/_Required
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ACTIVE
+---
+additionalAttributes:
+  environment: GEN_2
+assetType: cloudfunctions.googleapis.com/Function
+displayName: search
+labels:
+  deployment-tool: cli-gcloud
+location: us-central1
+name: //cloudfunctions.googleapis.com/projects/interlispsearch/locations/us-central1/functions/search
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ACTIVE
+---
+assetType: logging.googleapis.com/LogSink
+displayName: _Default
+location: global
+name: //logging.googleapis.com/projects/191169864763/sinks/_Default
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigquerystorage.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigquerystorage.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudasset.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudasset.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudfunctions.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudfunctions.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: run.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/run.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Collection
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: apphub.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/apphub.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: storage.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/storage.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: interlisp-document-bucket_1741737147622
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/interlisp-document-bucket_1741737147622
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: apptopology.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/apptopology.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: datalineage.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/datalineage.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: appoptimize.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/appoptimize.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudapis.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudapis.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: dataform.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/dataform.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Engine
+displayName: interlisp-search_1741738278473
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/engines/interlisp-search_1741738278473
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: datastore.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/datastore.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: iamcredentials.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/iamcredentials.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: privilegedaccessmanager.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/privilegedaccessmanager.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: notebooks.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/notebooks.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: oslogin.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/oslogin.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: deploymentmanager.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/deploymentmanager.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudtrace.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudtrace.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: firebaserules.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/firebaserules.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: logging.googleapis.com/LogSink
+displayName: _Required
+location: global
+name: //logging.googleapis.com/projects/191169864763/sinks/_Required
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigquerymigration.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigquerymigration.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: orgpolicy.googleapis.com/Policy
+displayName: iam.allowedPolicyMemberDomains
+location: global
+name: //orgpolicy.googleapis.com/projects/191169864763/policies/iam.allowedPolicyMemberDomains
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+updateTime: '2026-05-02T03:50:02Z'
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: serviceusage.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/serviceusage.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: servicemanagement.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/servicemanagement.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: designcenter.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/designcenter.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: monitoring.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/monitoring.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: source.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/source.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: sql-component.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/sql-component.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: logging.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/logging.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: cloudbuild.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/cloudbuild.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/Engine
+displayName: interlisp-search-v3
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/engines/interlisp-search-v3
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: compute.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/compute.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: recommender.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/recommender.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: interlisp-site-search
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/interlisp-site-search
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: containerregistry.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/containerregistry.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: orgpolicy.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/orgpolicy.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: medley-interlisp-core_1741735842821
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/medley-interlisp-core_1741735842821
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigqueryreservation.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigqueryreservation.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigqueryconnection.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigqueryconnection.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: pubsub.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/pubsub.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: visionai.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/visionai.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: bigquery.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/bigquery.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: interlisp-github
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/interlisp-github
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: discoveryengine.googleapis.com/DataStore
+displayName: lispcore_1742267831416
+location: global
+name: //discoveryengine.googleapis.com/projects/191169864763/locations/global/collections/default_collection/dataStores/lispcore_1742267831416
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: STATE_UNSPECIFIED
+---
+assetType: serviceusage.googleapis.com/Service
+displayName: analyticshub.googleapis.com
+location: global
+name: //serviceusage.googleapis.com/projects/191169864763/services/analyticshub.googleapis.com
+organization: organizations/513691321000
+parentAssetType: cloudresourcemanager.googleapis.com/Project
+parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/interlispsearch
+project: projects/191169864763
+state: ENABLED

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Generated / imported data artifacts (regenerate via scripts/github-index.js)
+*.jsonl
+
+# Cloud Functions
+.gcloud/
+gcf-artifacts/
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*service_account*.json
+*gcloud*.json
+credentials.json
+
+# Local scratch
+*.log
+/tmp
+.DS_Store
+
+# Coverage
+.coverage

@@ -1,0 +1,65 @@
+# Permissions
+
+gcloud iam service-accounts create vertex-search-sa \
+  --display-name="Vertex Search Service Account"
+
+gcloud projects add-iam-policy-binding interlispsearch \
+  --member="serviceAccount:vertex-search-sa@interlispsearch.iam.gserviceaccount.com" \
+  --role="roles/discoveryengine.editor"
+
+# Create the data storage
+
+# Create the correct data store type
+curl -X POST \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  "https://discoveryengine.googleapis.com/v1/projects/191169864763/locations/global/collections/default_collection/dataStores?dataStoreId=interlisp-site-search" \
+  -d '{
+    "displayName": "Interlisp Site Search",
+    "industryVertical": "GENERIC",
+    "solutionTypes": ["SOLUTION_TYPE_SEARCH"],
+    "contentConfig": "PUBLIC_WEBSITE"
+  }'
+
+# 2
+
+
+# Create the correct data store type
+curl -X POST \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  "https://discoveryengine.googleapis.com/v1/projects/interlispsearch/locations/global/collections/default_collection/dataStores?dataStoreId=hugo-site-search" \
+  -d '{
+    "displayName": "Hugo Site Search",
+    "industryVertical": "GENERIC",
+    "solutionTypes": ["SOLUTION_TYPE_SEARCH"],
+    "contentConfig": "PUBLIC_WEBSITE"
+  }'
+
+# 3
+
+curl -X POST \                                                                                    wstumbo@LakeClark
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  "https://discoveryengine.googleapis.com/v1/projects/191169864763/locations/global/collections/default_collection/engines/interlisp-search_1741738278473/servingConfigs/default_config:search" \ 
+  -d '{
+    "query": "History of medley",
+    "pageSize": 5,
+    "contentSearchSpec": {
+      "summarySpec": { "summaryResultCount": 3 }
+    }
+  }'
+
+
+gcloud functions deploy search \
+  --gen2 \
+  --runtime=nodejs20 \
+  --region=us-central1 \
+  --source=. \
+  --entry-point=search \
+  --trigger-http \
+  --allow-unauthenticated \
+  --service-account=vertex-search-sa@interlispsearch.iam.gserviceaccount.com \
+  --set-env-vars PROJECT_ID=191169864763,ENGINE_ID=interlisp-search_1741738278473 \
+  --memory=256Mi \
+  --timeout=30s
