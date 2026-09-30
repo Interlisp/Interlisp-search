@@ -14,17 +14,29 @@ const auth = new GoogleAuth({
 
 exports.search = async (req, res) => {
 
-  const allowedOrigins = [
+  // CORS allow-list: production origins by default, extendable via the
+  // ALLOWED_ORIGINS env var (comma-separated) for staging/preview URLs,
+  // e.g. ALLOWED_ORIGINS=https://interlisp.org,https://www.interlisp.org,https://staging.interlisp.org
+  // Loopback origins (localhost/127.0.0.1) are always allowed for local dev;
+  // the API is public and credential-free, so this carries no auth risk.
+  const defaultOrigins = [
     'https://interlisp.org',
     'https://www.interlisp.org',
   ];
+  const extraOrigins = (process.env.ALLOWED_ORIGINS || '')
+    .split(',')
+    .map(o => o.trim())
+    .filter(Boolean);
+  const allowedOrigins = [...new Set([...defaultOrigins, ...extraOrigins])];
 
   const origin        = req.headers.origin || '';
-  const allowedOrigin = allowedOrigins.includes(origin)
+  const isLoopback = /^(http:\/\/localhost(:\d+)?|http:\/\/127\.0\.0\.1(:\d+)?)$/i.test(origin);
+  const allowedOrigin = allowedOrigins.includes(origin) || isLoopback
     ? origin
-    : 'https://interlisp.org';
+    : defaultOrigins[0];
 
   res.set('Access-Control-Allow-Origin',  allowedOrigin);
+  res.set('Vary', 'Origin');
   res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.set('Access-Control-Allow-Headers', 'Content-Type');
   res.set('Access-Control-Max-Age',       '3600');
@@ -48,7 +60,10 @@ exports.search = async (req, res) => {
 
   const query    = req.query.q || req.body?.q || '';
   const context  = req.query.context || req.body?.context || '';
-  const pageSize = parseInt(req.query.pageSize, 10) || 10;
+  // Clamp pageSize so oversized requests can't force unbounded work;
+  // the blended merge below caps results at what the fetches return.
+  const requestedPageSize = parseInt(req.query.pageSize, 10) || 10;
+  const pageSize = Math.min(Math.max(requestedPageSize, 1), 50);
 
   if (!query.trim()) {
     res.status(400).json({ error: 'Missing query parameter q' });
@@ -109,6 +124,9 @@ exports.search = async (req, res) => {
       }
       const resp = await fetch(endpoint, {
         method: 'POST',
+        // Bound Vertex latency well under the 30s function timeout
+        // so one slow engine can't hang the whole query.
+        signal: AbortSignal.timeout(20000),
         headers: {
           'Authorization': `Bearer ${token.token}`,
           'Content-Type': 'application/json',
@@ -126,10 +144,24 @@ exports.search = async (req, res) => {
     let websiteData;
     let githubData;
     if (GITHUB_ENGINE_ID) {
-      [websiteData, githubData] = await Promise.all([
+      // Partial fallback: if one engine fails, serve what the other
+      // returned instead of 500ing the whole query. Only throw when
+      // both engines fail.
+      const [websiteResult, githubResult] = await Promise.allSettled([
         searchEngine(WEBSITE_ENGINE_ID, true),
         searchEngine(GITHUB_ENGINE_ID, false)
       ]);
+      if (websiteResult.status === 'rejected' && githubResult.status === 'rejected') {
+        throw websiteResult.reason;
+      }
+      if (websiteResult.status === 'rejected') {
+        console.error('Website engine failed, serving GitHub-only:', websiteResult.reason.message);
+      }
+      if (githubResult.status === 'rejected') {
+        console.error('GitHub engine failed, serving website-only:', githubResult.reason.message);
+      }
+      websiteData = websiteResult.status === 'fulfilled' ? websiteResult.value : null;
+      githubData = githubResult.status === 'fulfilled' ? githubResult.value : null;
     } else {
       websiteData = await searchEngine(WEBSITE_ENGINE_ID, true);
       githubData = null;
@@ -188,7 +220,8 @@ exports.search = async (req, res) => {
         source: src,
         priority: sourcePriorityMap[src] || 999
       };
-    }).sort((a, b) => a.priority - b.priority);
+      // Drop citations whose doc wasn't in the fetched results (no URL to link).
+    }).filter(ref => ref.uri).sort((a, b) => a.priority - b.priority);
 
     const results = allResults.map(i => ({
       id: i.raw.document?.id,

@@ -32,11 +32,15 @@ SITE_COUNT=$(echo "$RESPONSE" | python3 -c "import sys, json; data=json.load(sys
 echo "  Found $SITE_COUNT target sites"
 echo ""
 
-# Check 3: Cloud Function deployed
+# Check 3: Cloud Function deployed (dual-engine blended)
 echo "[3/8] Checking search Cloud Function..."
 if gcloud functions describe search --gen2 --region=$REGION --project=$PROJECT_ID &>/dev/null; then
+    WEBSITE_ENGINE_ID=$(gcloud functions describe search --gen2 --region=$REGION --project=$PROJECT_ID --format='value(environmentVariables.WEBSITE_ENGINE_ID)')
+    GITHUB_ENGINE_ID=$(gcloud functions describe search --gen2 --region=$REGION --project=$PROJECT_ID --format='value(environmentVariables.GITHUB_ENGINE_ID)')
     ENGINE_ID=$(gcloud functions describe search --gen2 --region=$REGION --project=$PROJECT_ID --format='value(environmentVariables.ENGINE_ID)')
     echo "  ✓ Function deployed"
+    echo "  WEBSITE_ENGINE_ID: $WEBSITE_ENGINE_ID"
+    echo "  GITHUB_ENGINE_ID: $GITHUB_ENGINE_ID"
     echo "  ENGINE_ID: $ENGINE_ID"
 else
     echo "  ✗ Function not deployed"

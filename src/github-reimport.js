@@ -19,6 +19,42 @@ const auth = new GoogleAuth({
 
 const storage = new Storage({ projectId: PROJECT_ID });
 
+// Shared GitHub API headers. Authorization is only sent when a token is
+// configured so anonymous calls (60 req/hour) keep working.
+function githubHeaders(accept = 'application/vnd.github.v3+json') {
+  const headers = {
+    Accept: accept,
+    'User-Agent': 'interlisp-github-reimport',
+  };
+  if (GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${GITHUB_TOKEN}`;
+  }
+  return headers;
+}
+
+// Fetch a paginated GitHub REST endpoint, following `Link: rel="next"`
+// headers so repos with >100 issues/PRs are fully imported.
+async function githubFetchAll(url) {
+  const items = [];
+  let nextUrl = url;
+  while (nextUrl) {
+    const response = await fetch(nextUrl, { headers: githubHeaders() });
+    if (!response.ok) {
+      const err = new Error(`GitHub API error ${response.status}: ${nextUrl}`);
+      err.status = response.status;
+      throw err;
+    }
+    const page = await response.json();
+    if (Array.isArray(page)) {
+      items.push(...page);
+    }
+    const link = response.headers.get('Link') || '';
+    const match = link.match(/<([^>]+)>;\s*rel="next"/);
+    nextUrl = match ? match[1] : null;
+  }
+  return items;
+}
+
 exports.reimportGithub = async (message, context) => {
   console.log(`[${new Date().toISOString()}] Starting GitHub reimport...`);
   
@@ -66,6 +102,8 @@ exports.reimportGithub = async (message, context) => {
         content_type: m.content_type || null,
         repo: m.repo || null,
         state: m.state || null,
+        author: m.author || null,
+        labels: Array.isArray(m.labels) ? m.labels : [],
         number: m.issue_number || m.pr_number || m.number || null,
         issue_number: m.issue_number || null,
         pr_number: m.pr_number || null,
@@ -78,6 +116,10 @@ exports.reimportGithub = async (message, context) => {
       };
       // Remove nulls to keep JSONL clean
       Object.keys(structData).forEach(k => structData[k] == null && delete structData[k]);
+      // Labels must stay an array for schema parity (empty, not deleted)
+      if (!Array.isArray(structData.labels)) {
+        structData.labels = [];
+      }
       return JSON.stringify({ id: sid, structData });
     });
     const jsonlContent = jsonlLines.join('\n');
@@ -88,10 +130,9 @@ exports.reimportGithub = async (message, context) => {
     
     console.log(`Creating Cloud Storage bucket if needed: ${bucketName}`);
     const bucket = storage.bucket(bucketName);
-    
-    try {
-      await bucket.exists();
-    } catch (e) {
+
+    const [bucketExists] = await bucket.exists();
+    if (!bucketExists) {
       console.log(`Creating bucket: ${bucketName}`);
       await storage.createBucket(bucketName, { location: 'US' });
     }
@@ -146,25 +187,18 @@ exports.reimportGithub = async (message, context) => {
 
 async function fetchGitHubIssues() {
   const issues = [];
-  
+
   for (const repo of GITHUB_REPOS) {
     try {
       const url = `https://api.github.com/repos/${GITHUB_ORG}/${repo}/issues?state=all&per_page=100`;
-      const response = await fetch(url, {
-        headers: {
-          'Authorization': `token ${GITHUB_TOKEN}`,
-          'Accept': 'application/vnd.github.v3+json'
-        }
-      });
-      
-      if (!response.ok) {
-        console.warn(`Failed to fetch issues from ${GITHUB_ORG}/${repo}: ${response.statusText}`);
-        continue;
-      }
-      
-      const repoIssues = await response.json();
-      
+      const repoIssues = await githubFetchAll(url);
+
       for (const issue of repoIssues) {
+        // The issues endpoint includes pull requests — skip them here;
+        // PRs are imported separately by fetchGitHubPullRequests.
+        if (issue.pull_request) {
+          continue;
+        }
         issues.push({
           id: `github-issue-${repo}-${issue.number}`,
           title: issue.title,
@@ -176,7 +210,10 @@ async function fetchGitHubIssues() {
             content_type: 'issue',
             repo: `${GITHUB_ORG}/${repo}`,
             issue_number: issue.number,
+            number: issue.number,
             state: issue.state,
+            author: (issue.user && issue.user.login) || null,
+            labels: (issue.labels || []).map(l => (typeof l === 'string' ? l : l.name)).filter(Boolean),
             created_date: issue.created_at,
             updated_date: issue.updated_at,
             last_indexed: new Date().toISOString()
@@ -187,30 +224,18 @@ async function fetchGitHubIssues() {
       console.error(`Error fetching issues from ${GITHUB_ORG}/${repo}:`, err.message);
     }
   }
-  
+
   return issues;
 }
 
 async function fetchGitHubPullRequests() {
   const prs = [];
-  
+
   for (const repo of GITHUB_REPOS) {
     try {
       const url = `https://api.github.com/repos/${GITHUB_ORG}/${repo}/pulls?state=all&per_page=100`;
-      const response = await fetch(url, {
-        headers: {
-          'Authorization': `token ${GITHUB_TOKEN}`,
-          'Accept': 'application/vnd.github.v3+json'
-        }
-      });
-      
-      if (!response.ok) {
-        console.warn(`Failed to fetch PRs from ${GITHUB_ORG}/${repo}: ${response.statusText}`);
-        continue;
-      }
-      
-      const repoPrs = await response.json();
-      
+      const repoPrs = await githubFetchAll(url);
+
       for (const pr of repoPrs) {
         prs.push({
           id: `github-pr-${repo}-${pr.number}`,
@@ -223,7 +248,10 @@ async function fetchGitHubPullRequests() {
             content_type: 'pull_request',
             repo: `${GITHUB_ORG}/${repo}`,
             pr_number: pr.number,
+            number: pr.number,
             state: pr.state,
+            author: (pr.user && pr.user.login) || null,
+            labels: (pr.labels || []).map(l => (typeof l === 'string' ? l : l.name)).filter(Boolean),
             created_date: pr.created_at,
             updated_date: pr.updated_at,
             last_indexed: new Date().toISOString()
@@ -234,7 +262,7 @@ async function fetchGitHubPullRequests() {
       console.error(`Error fetching PRs from ${GITHUB_ORG}/${repo}:`, err.message);
     }
   }
-  
+
   return prs;
 }
 
@@ -246,10 +274,7 @@ async function fetchGitHubMarkdown() {
       // Fetch README
       const readmeUrl = `https://api.github.com/repos/${GITHUB_ORG}/${repo}/readme`;
       const readmeResponse = await fetch(readmeUrl, {
-        headers: {
-          'Authorization': `token ${GITHUB_TOKEN}`,
-          'Accept': 'application/vnd.github.v3.raw'
-        }
+        headers: githubHeaders('application/vnd.github.v3.raw')
       });
       
       if (readmeResponse.ok) {
