@@ -19,7 +19,7 @@
  * Verify:
  *   TOKEN=$(gcloud auth application-default print-access-token)
  *   curl -s -H "Authorization: Bearer $TOKEN" -H "x-goog-user-project: interlispsearch" \
- *     "https://discoveryengine.googleapis.com/v1/projects/interlispsearch/locations/global/collections/default_collection/dataStores/interlisp-search-unified/branches/default/documents?pageSize=5" | python3 -m json.tool
+ *   "https://discoveryengine.googleapis.com/v1/projects/interlispsearch/locations/global/collections/default_collection/dataStores/interlisp-github-v2/branches/0/documents?pageSize=5" | python3 -m json.tool
  */
 
 'use strict';
